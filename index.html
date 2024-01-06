@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el número</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-dark fixed-top bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid d-flex justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <i class="bi bi-moon-stars" style="font-size: 2rem;"></i>
+                    JS - Práctica Adivina mi número
+                </a>
+                <a class="navbar-brand" href="https://github.com/cyroguer"><i class="bi bi-github "
+                        style="font-size: 2rem;"></i></a>
+                <a href="https://www.linkedin.com/in/alejandra-rosales-guevara-b91b32191/"><i class="bi bi-linkedin"
+                        style="font-size: 2rem;"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <figure class="caja text-center">
+        <blockquote class="blockquote">
+            <p>Instrucciones: </p>
+        </blockquote>
+    </figure>
+
+    <div class="card-group animate__animated animate__fadeInDown">
+        <div class="card-tarot">
+            <div class="card-front">
+                <!-- Contenido del lado frontal -->
+                <img src="/star.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-back">
+                <!-- Contenido del lado trasero -->
+                <p>¡Hola! <br>Bienvenido a nuestro juego de adivinanza. En este juego, intentaré adivinar en qué número
+                    estás pensando.</p>
+            </div>
+        </div>
+
+        <div class="card-tarot">
+            <div class="card-front">
+                <!-- Contenido del lado frontal -->
+                <img src="/moon.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-back">
+                <!-- Contenido del lado trasero -->
+                <p>Listo? Piensa en un número de 1 al 100</p>
+            </div>
+        </div>
+
+        <div class="card-tarot">
+            <div class="card-front">
+                <!-- Contenido del lado frontal -->
+                <img src="/sol.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-back">
+                <!-- Contenido del lado trasero -->
+                <p>¡Perfecto! Ahora estoy listo/a para adivinar. </p>
+            </div>
+        </div>
+
+        <!-- Repite este bloque para cada tarjeta en tu grupo -->
+    </div>
+
+
+    
+    <div id="game-container" class="container card-game text-center mb-3 d-grid gap-2 col-6 mx-auto"
+    style="max-width: 30rem; position: relative; background: url('orbe.png') center/cover;">
+   <p>Piensa en un número del 1 al 100</p>
+</div>
+
+
+
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
