@@ -174,3 +174,24 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 
 .container > p{margin-top: 200px;
 margin-bottom: 100px;}
+
+@keyframes moveShadow {
+  0% {
+    filter: drop-shadow(0 0 45px rgb(76, 36, 239));
+  }
+  50% {
+    filter: drop-shadow(0 0 45px rgb(207 121 173));
+
+  }
+  100% {
+    filter: drop-shadow(0 0 45px rgb(76, 36, 239)); 
+  }
+}
+
+#game-container {
+  animation: moveShadow 3s infinite; /* Ajusta la duración y repetición según tus necesidades */
+}
+.orbe-entrada{
+  animation-duration: 6s;
+
+}
